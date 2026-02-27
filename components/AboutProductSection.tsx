@@ -93,7 +93,7 @@ export default function AboutProductSection() {
             {/* Product image container */}
             <div className="relative w-[280px] h-[280px] sm:w-[360px] sm:h-[360px]">
               <Image
-                src="/assets/face_cream.jfif"
+                src="/assets/about-product.jpg"
                 alt="Vasu Ayurvedics Shat Dhaut Ghrit ayurvedic face cream – A2 cow ghee washed 100 times in rose water"
                 height={370}
                 width={450}
