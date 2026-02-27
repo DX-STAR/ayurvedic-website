@@ -34,7 +34,7 @@ export default function HeroSection() {
       <div className="absolute bottom-0 left-0 w-[350px] h-[350px] rounded-full bg-saffron/8 blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
           {/* Left: Copy */}
           <div>
@@ -143,37 +143,6 @@ export default function HeroSection() {
               <div className="relative w-[290px] h-[290px] sm:w-[350px] sm:h-[350px] rounded-full bg-gradient-to-br from-amber-50 via-white to-amber-100 border-[6px] border-gold shadow-2xl shadow-gold/20 overflow-hidden flex items-center justify-center">
                 <div className="absolute inset-2 rounded-full border border-gold/20" />
                 <div className="absolute inset-5 rounded-full border border-gold/10" />
-
-                {/* Jar SVG */}
-                {/* <svg viewBox="0 0 260 300" className="w-48 sm:w-60 drop-shadow-xl" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="40" y="95" width="180" height="175" rx="24" fill="url(#hJarGrad)" />
-                  <rect x="34" y="68" width="192" height="42" rx="16" fill="url(#hLidGrad)" />
-                  <rect x="58" y="56" width="144" height="20" rx="10" fill="#b07828" />
-                  <rect x="62" y="118" width="136" height="130" rx="14" fill="white" fillOpacity="0.93" />
-                  <circle cx="130" cy="143" r="22" fill="url(#hGoldGrad)" opacity="0.22" />
-                  <text x="130" y="150" textAnchor="middle" fill="#3A5A40" fontSize="15" fontFamily="Georgia, serif" fontWeight="bold">सत</text>
-                  <text x="130" y="185" textAnchor="middle" fill="#3A5A40" fontSize="9.5" fontFamily="Georgia, serif" fontWeight="700" letterSpacing="0.8">SHAT DHAUT GHRIT</text>
-                  <text x="130" y="199" textAnchor="middle" fill="#C9A84C" fontSize="7" letterSpacing="1.5">AYURVEDIC FACE CREAM</text>
-                  <line x1="78" y1="210" x2="182" y2="210" stroke="#C9A84C" strokeOpacity="0.35" strokeWidth="0.6" />
-                  <text x="130" y="224" textAnchor="middle" fill="#3A5A40" fontSize="7" fontFamily="sans-serif">100× Rose Water Washed</text>
-                  <text x="130" y="236" textAnchor="middle" fill="#3A5A40" fontSize="7" fontFamily="sans-serif">Pure A2 Cow Ghee</text>
-                  <rect x="86" y="243" width="88" height="13" rx="6.5" fill="#E8871E" opacity="0.13" />
-                  <text x="130" y="253" textAnchor="middle" fill="#E8871E" fontSize="6.5" fontFamily="sans-serif" fontWeight="700">🫙 COPPER VESSEL</text>
-                  <ellipse cx="88" cy="155" rx="10" ry="38" fill="white" fillOpacity="0.14" />
-                  <ellipse cx="56" cy="248" rx="7" ry="18" fill="#3A5A40" fillOpacity="0.18" transform="rotate(-35 56 248)" />
-                  <ellipse cx="204" cy="244" rx="7" ry="18" fill="#3A5A40" fillOpacity="0.18" transform="rotate(35 204 244)" />
-                  <defs>
-                    <linearGradient id="hJarGrad" x1="40" y1="95" x2="220" y2="270" gradientUnits="userSpaceOnUse">
-                      <stop stopColor="#FFFDF7" /><stop offset="1" stopColor="#f5e8c0" />
-                    </linearGradient>
-                    <linearGradient id="hLidGrad" x1="34" y1="68" x2="226" y2="110" gradientUnits="userSpaceOnUse">
-                      <stop stopColor="#ddb84a" /><stop offset="1" stopColor="#8a5c18" />
-                    </linearGradient>
-                    <linearGradient id="hGoldGrad" x1="108" y1="121" x2="152" y2="165" gradientUnits="userSpaceOnUse">
-                      <stop stopColor="#C9A84C" /><stop offset="1" stopColor="#E8871E" />
-                    </linearGradient>
-                  </defs>
-                </svg> */}
 
                 <Image
                   src="/assets/FaceCream.jpg"
