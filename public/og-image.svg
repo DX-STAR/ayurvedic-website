@@ -1,0 +1,45 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#FDF6EC"/>
+  <!-- Left forest panel -->
+  <rect width="480" height="630" fill="#3A5A40"/>
+  <!-- Dot grid on forest panel -->
+  <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+    <circle cx="20" cy="20" r="1" fill="#C9A84C" opacity="0.3"/>
+  </pattern>
+  <rect width="480" height="630" fill="url(#dots)"/>
+  
+  <!-- Jar illustration on forest panel -->
+  <rect x="140" y="160" width="200" height="240" rx="30" fill="#FDF6EC" opacity="0.92"/>
+  <rect x="130" y="130" width="220" height="50" rx="18" fill="#C9A84C"/>
+  <rect x="155" y="115" width="170" height="24" rx="12" fill="#a07830"/>
+  <rect x="165" y="185" width="150" height="200" rx="14" fill="white" opacity="0.88"/>
+  <text x="240" y="237" text-anchor="middle" fill="#3A5A40" font-size="16" font-family="Georgia, serif" font-weight="bold">सत धौत घृत</text>
+  <text x="240" y="264" text-anchor="middle" fill="#3A5A40" font-size="10" font-family="Georgia, serif" font-weight="700" letter-spacing="1">SHAT DHAUT GHRIT</text>
+  <text x="240" y="280" text-anchor="middle" fill="#C9A84C" font-size="8" letter-spacing="2">AYURVEDIC FACE CREAM</text>
+  <line x1="180" y1="292" x2="300" y2="292" stroke="#C9A84C" stroke-opacity="0.4" stroke-width="0.8"/>
+  <text x="240" y="310" text-anchor="middle" fill="#3A5A40" font-size="9" font-family="sans-serif">100× Rose Water Washed</text>
+  <text x="240" y="325" text-anchor="middle" fill="#3A5A40" font-size="9" font-family="sans-serif">Pure A2 Cow Ghee</text>
+
+  <!-- Right: Branding -->
+  <text x="560" y="220" fill="#3A5A40" font-size="52" font-family="Georgia, serif" font-weight="bold">Shat Dhaut</text>
+  <text x="560" y="285" fill="#3A5A40" font-size="52" font-family="Georgia, serif" font-weight="bold">Ghrit</text>
+  <text x="560" y="340" fill="#C9A84C" font-size="22" font-family="sans-serif" font-weight="300" letter-spacing="2">AYURVEDIC SKINCARE</text>
+  
+  <!-- Separator line -->
+  <line x1="560" y1="370" x2="900" y2="370" stroke="#C9A84C" stroke-width="1.5" opacity="0.5"/>
+  
+  <text x="560" y="410" fill="#3A5A40" font-size="18" font-family="sans-serif" opacity="0.7">Pure A2 Cow Ghee · Washed 100 Times</text>
+  <text x="560" y="440" fill="#3A5A40" font-size="18" font-family="sans-serif" opacity="0.7">in Rose Water · Copper Vessel Processed</text>
+  
+  <!-- Price badge -->
+  <rect x="560" y="480" width="180" height="56" rx="28" fill="#E8871E"/>
+  <text x="650" y="514" text-anchor="middle" fill="white" font-size="22" font-family="sans-serif" font-weight="bold">From ₹599</text>
+  
+  <!-- Trust badges -->
+  <text x="560" y="580" fill="#3A5A40" font-size="14" font-family="sans-serif" opacity="0.55">100% Natural  ·  No Preservatives  ·  Cruelty Free  ·  Ayurvedic Certified</text>
+  
+  <!-- Gold leaf decoration -->
+  <text x="1100" y="80" font-size="60" opacity="0.12">🌿</text>
+  <text x="520" y="600" font-size="40" opacity="0.08">🌹</text>
+</svg>
