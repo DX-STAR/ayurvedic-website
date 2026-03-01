@@ -103,18 +103,6 @@ Pages are split to maximize RSC (React Server Components):
 
 ---
 
-## Customisation
-
-### Change WhatsApp Number
-Search and replace `919595073539` across all files.
-
-### Change Domain
-Search and replace `shatdhautghrit.com` across all files.  
-Update `metadataBase` in `app/layout.tsx`.
-
-### Change Prices
-Search and replace `₹599` and `₹999`.
-
 ### Add Google Analytics
 Add to `app/layout.tsx`:
 ```tsx
@@ -153,19 +141,5 @@ verification: {
 | Off-white | `#FAF7F0` | Text on dark backgrounds |
 
 ---
-
-## SEO Checklist (Pre-Launch)
-
-- [ ] Replace `shatdhautghrit.com` with actual domain everywhere
-- [ ] Add actual Google site verification code
-- [ ] Submit sitemap to Google Search Console: `https://yourdomain.com/sitemap.xml`
-- [ ] Submit sitemap to Bing Webmaster Tools
-- [ ] Verify OG image renders correctly using https://opengraph.xyz
-- [ ] Test robots.txt: `https://yourdomain.com/robots.txt`
-- [ ] Validate structured data: https://validator.schema.org
-- [ ] Test Core Web Vitals: https://pagespeed.web.dev
-- [ ] Add actual Instagram/Facebook/YouTube profile URLs in Footer
-- [ ] Replace placeholder email with real email
-- [ ] Add Google Analytics or Plausible tracking
 
 © 2025 Shat Dhaut Ghrit · Made in India 🇮🇳
